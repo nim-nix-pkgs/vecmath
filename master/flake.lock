@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
+        "path": "/nix/store/gddrvlqs5qf1bp3kc80gp3qg5vm8kj76-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-vecmath-master": "src-vecmath-master"
+      }
+    },
+    "src-vecmath-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1452791960,
+        "narHash": "sha256-Cw8GiInArmg5IIKGSkYcWk7SAmQCSoaaW+f21KO1X2s=",
+        "owner": "barcharcraz",
+        "repo": "vecmath",
+        "rev": "2e31e5a824a6e4c9e26a87b67b52204e225a05e6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "barcharcraz",
+        "ref": "refs/heads/master",
+        "repo": "vecmath",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
