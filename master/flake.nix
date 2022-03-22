@@ -1,5 +1,5 @@
 {
-  description = ''various vector maths utils for nimrod'';
+  description = ''various maths fucntions useful to graphics'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-vecmath-master.flake = false;
   inputs.src-vecmath-master.owner = "barcharcraz";
-  inputs.src-vecmath-master.ref   = "refs/heads/master";
+  inputs.src-vecmath-master.ref   = "master";
   inputs.src-vecmath-master.repo  = "vecmath";
   inputs.src-vecmath-master.type  = "github";
   
