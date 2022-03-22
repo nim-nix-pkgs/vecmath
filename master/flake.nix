@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-vecmath-master.flake = false;
+  inputs.src-vecmath-master.ref   = "refs/heads/master";
   inputs.src-vecmath-master.owner = "barcharcraz";
-  inputs.src-vecmath-master.ref   = "master";
   inputs.src-vecmath-master.repo  = "vecmath";
   inputs.src-vecmath-master.type  = "github";
   
