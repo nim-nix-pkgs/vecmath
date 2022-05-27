@@ -68,11 +68,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1652792159,
-        "narHash": "sha256-qGDi9abMcB2sfNJPFr0oo+pvJZl+fAmZqnPnz1Fu9lE=",
+        "lastModified": 1652797942,
+        "narHash": "sha256-xbwJFm7/aBOw5dbIzHmoi6egnP1yX+RUM1b5HGboqaw=",
         "owner": "nim-nix-pkgs",
         "repo": "vecmath",
-        "rev": "336d54ca57dae8472b791a2dfbc42df8974103a2",
+        "rev": "b3ffb16cdc35c15fe05381b9e9e28dd1121f3f70",
         "type": "github"
       },
       "original": {
