@@ -1,0 +1,7 @@
+*.o
+*.c
+*.exe
+*.pdb
+*.ilk
+*nimcache
+*.swp
